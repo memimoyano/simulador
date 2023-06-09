@@ -1,0 +1,76 @@
+.bingo-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+
+.bingo-wrapper .lottery-icon {
+    size: 30px;
+    width: 30px;
+}
+
+.bingo-wrapper h1 {
+    padding: 0.3em 0;
+}
+
+.bingo-wrapper p, h1 {
+    margin: 0;
+}
+
+.tables-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bingo-table-wrapper {
+    padding: 0.5em;
+    margin-bottom: 7em;
+}
+
+.bingo-table {
+    border-collapse: collapse;
+    align-items: center;
+    align-self: center;
+    font-size: 3.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #6366f1;
+    padding: 1em;
+    background-color: white;
+}
+
+.bingo-empty-td {
+    border: solid 2px #818cf8;
+    background-color: #a5b4fc;
+    width: 5rem;
+    height: 5rem;
+}
+
+.bingo-td {
+    border: solid 2px #818cf8;
+    width: 5rem;
+    height: 5rem;
+}
+
+.print-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.print-button {
+    border: solid 1px gainsboro;
+    background: none;
+    border-radius: 0.1em;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.print-button:hover {
+    border: solid 1px gainsboro;
+    background-color: rgb(249, 255, 255);
+    border-radius: 0.1em;
+    cursor: pointer;
+}
